@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		653316381C871776007D0F70 /* ExpressMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653316371C871776007D0F70 /* ExpressMarkdown.swift */; };
+		653316441C873B03007D0F70 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653316391C873B03007D0F70 /* BrightFutures.framework */; };
+		653316451C873B03007D0F70 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533163A1C873B03007D0F70 /* ExecutionContext.framework */; };
+		653316461C873B04007D0F70 /* Express.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533163B1C873B03007D0F70 /* Express.framework */; };
+		653316471C873B04007D0F70 /* Markdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533163C1C873B03007D0F70 /* Markdown.framework */; };
+		653316481C873B04007D0F70 /* Mustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533163D1C873B03007D0F70 /* Mustache.framework */; };
+		653316491C873B04007D0F70 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533163E1C873B03007D0F70 /* PathKit.framework */; };
+		6533164A1C873B04007D0F70 /* PathToRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533163F1C873B03007D0F70 /* PathToRegex.framework */; };
+		6533164B1C873B04007D0F70 /* Regex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653316401C873B03007D0F70 /* Regex.framework */; };
+		6533164C1C873B04007D0F70 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653316411C873B03007D0F70 /* Result.framework */; };
+		6533164D1C873B04007D0F70 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653316421C873B03007D0F70 /* Stencil.framework */; };
+		6533164E1C873B04007D0F70 /* TidyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653316431C873B03007D0F70 /* TidyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6533162C1C871712007D0F70 /* ExpressMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExpressMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		653316311C871712007D0F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		653316371C871776007D0F70 /* ExpressMarkdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressMarkdown.swift; sourceTree = "<group>"; };
+		653316391C873B03007D0F70 /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/Mac/BrightFutures.framework; sourceTree = "<group>"; };
+		6533163A1C873B03007D0F70 /* ExecutionContext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExecutionContext.framework; path = Carthage/Build/Mac/ExecutionContext.framework; sourceTree = "<group>"; };
+		6533163B1C873B03007D0F70 /* Express.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Express.framework; path = Carthage/Build/Mac/Express.framework; sourceTree = "<group>"; };
+		6533163C1C873B03007D0F70 /* Markdown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Markdown.framework; path = Carthage/Build/Mac/Markdown.framework; sourceTree = "<group>"; };
+		6533163D1C873B03007D0F70 /* Mustache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mustache.framework; path = Carthage/Build/Mac/Mustache.framework; sourceTree = "<group>"; };
+		6533163E1C873B03007D0F70 /* PathKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PathKit.framework; path = Carthage/Build/Mac/PathKit.framework; sourceTree = "<group>"; };
+		6533163F1C873B03007D0F70 /* PathToRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PathToRegex.framework; path = Carthage/Build/Mac/PathToRegex.framework; sourceTree = "<group>"; };
+		653316401C873B03007D0F70 /* Regex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Regex.framework; path = Carthage/Build/Mac/Regex.framework; sourceTree = "<group>"; };
+		653316411C873B03007D0F70 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		653316421C873B03007D0F70 /* Stencil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stencil.framework; path = Carthage/Build/Mac/Stencil.framework; sourceTree = "<group>"; };
+		653316431C873B03007D0F70 /* TidyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TidyJSON.framework; path = Carthage/Build/Mac/TidyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +43,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653316441C873B03007D0F70 /* BrightFutures.framework in Frameworks */,
+				653316451C873B03007D0F70 /* ExecutionContext.framework in Frameworks */,
+				653316461C873B04007D0F70 /* Express.framework in Frameworks */,
+				653316471C873B04007D0F70 /* Markdown.framework in Frameworks */,
+				653316481C873B04007D0F70 /* Mustache.framework in Frameworks */,
+				653316491C873B04007D0F70 /* PathKit.framework in Frameworks */,
+				6533164A1C873B04007D0F70 /* PathToRegex.framework in Frameworks */,
+				6533164B1C873B04007D0F70 /* Regex.framework in Frameworks */,
+				6533164C1C873B04007D0F70 /* Result.framework in Frameworks */,
+				6533164D1C873B04007D0F70 /* Stencil.framework in Frameworks */,
+				6533164E1C873B04007D0F70 /* TidyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -31,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				6533162E1C871712007D0F70 /* ExpressMarkdown */,
+				6533164F1C873B0A007D0F70 /* Frameworks */,
 				6533162D1C871712007D0F70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +84,24 @@
 				653316371C871776007D0F70 /* ExpressMarkdown.swift */,
 			);
 			path = ExpressMarkdown;
+			sourceTree = "<group>";
+		};
+		6533164F1C873B0A007D0F70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				653316391C873B03007D0F70 /* BrightFutures.framework */,
+				6533163A1C873B03007D0F70 /* ExecutionContext.framework */,
+				6533163B1C873B03007D0F70 /* Express.framework */,
+				6533163C1C873B03007D0F70 /* Markdown.framework */,
+				6533163D1C873B03007D0F70 /* Mustache.framework */,
+				6533163E1C873B03007D0F70 /* PathKit.framework */,
+				6533163F1C873B03007D0F70 /* PathToRegex.framework */,
+				653316401C873B03007D0F70 /* Regex.framework */,
+				653316411C873B03007D0F70 /* Result.framework */,
+				653316421C873B03007D0F70 /* Stencil.framework */,
+				653316431C873B03007D0F70 /* TidyJSON.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +225,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -214,6 +270,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -231,6 +291,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ExpressMarkdown/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -251,6 +315,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ExpressMarkdown/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -280,6 +348,7 @@
 				653316361C871712007D0F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,2 +1,2 @@
-github "crossroadlabs/Express" ~> 0.3
+github "crossroadlabs/Express" "master"
 github "crossroadlabs/Markdown" "master"
