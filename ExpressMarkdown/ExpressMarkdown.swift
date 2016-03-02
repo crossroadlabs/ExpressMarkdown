@@ -28,6 +28,12 @@ public struct MarkdownPageConfig {
     let view:String
     let param:String
     let options:Options
+    
+    public init(view:String, param:String, options:Options) {
+        self.view = view
+        self.param = param
+        self.options = options
+    }
 }
 
 public class MarkdownDataProvider : StaticDataProviderType {
