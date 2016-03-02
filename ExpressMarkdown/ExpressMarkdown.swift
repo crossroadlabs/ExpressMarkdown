@@ -58,6 +58,17 @@ public class MarkdownDataProvider : StaticDataProviderType {
         let file = fullPath(path)
         
         return future {
+            var file = file
+            var isDir = ObjCBool(false)
+            
+            //TODO: refactor
+            if !self.fm.fileExistsAtPath(file, isDirectory: &isDir) && !isDir.boolValue {
+                guard let filename = file.bridge().stringByAppendingPathExtension(self.ext) else {
+                    throw ExpressError.PageNotFound(path: path)
+                }
+                file = filename
+            }
+            
             let attributes = try self.fm.attributesOfItemAtPath(file)
             
             guard let modificationDate = (attributes[NSFileModificationDate].flatMap{$0 as? NSDate}) else {
